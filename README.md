@@ -8,7 +8,7 @@
   <img height="200" src="./videogame.png" />
 </p>
 
-## Objetivos del Proyecto
+##  Proyect Overview
 
 - App built with React, Redux, Node, Axios and Sequelize.
 - JavaScript, HTML and CSS.
