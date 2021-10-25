@@ -1,0 +1,18 @@
+.genreButtonContainer {
+  position: absolute;
+  max-height: 200px;
+}
+
+.filterButtonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.buttonOn {
+  background-color: green;
+}
+
+.buttonOff {
+  background-color: red;
+}

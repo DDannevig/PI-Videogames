@@ -1,0 +1,70 @@
+.showMenu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.mainContainer {
+  position: relative;
+}
+
+.inputsContainer {
+  background-color: #c1b6b6;
+  padding: 5px;
+  border-radius: 10px;
+  border: 4px groove rgba(167, 97, 97, 0.452);
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputContainer {
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border: 2px inset rgba(167, 97, 97, 0.452);
+  border-radius: 10px;
+}
+
+.platformContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.platformLabelContainer {
+  position: absolute;
+}
+
+.platformContainer2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.showList {
+  position: absolute;
+  background-color: rosybrown;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.submitBtn {
+  display: relative;
+  align-self: center;
+}
+
+.showList {
+  background-color: rosybrown;
+  padding: 5px;
+  border-radius: 10px;
+  border: 4px groove #c1b6b6;
+}

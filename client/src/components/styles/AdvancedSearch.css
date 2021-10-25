@@ -1,0 +1,26 @@
+.advancedsearch {
+  display: flex;
+}
+
+.mainContainer {
+  position: relative;
+}
+
+.advancedSearchContainer {
+  position: absolute;
+  background-color: #c1b6b6;
+  padding: 5px;
+  border-radius: 10px;
+  border: 4px groove rgba(167, 97, 97, 0.452);
+}
+
+.searchContainer {
+  background-color: rosybrown;
+  padding: 5px;
+  border: 2px inset rgba(167, 97, 97, 0.452);
+  border-radius: 10px;
+}
+
+.searchContainerElement {
+  padding: 5px;
+}

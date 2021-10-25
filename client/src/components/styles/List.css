@@ -1,0 +1,245 @@
+.gameCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainFilterContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterBar {
+  position: sticky;
+  top: 150px;
+  float: left;
+  padding: 10px;
+  margin-left: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 4px groove rgba(167, 97, 97, 0.452);
+  background-color: #c1b6b6;
+  border-radius: 10px;
+}
+
+.filterBuffer {
+  border: 50px solid transparent;
+}
+
+.bodyContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.bodyDisplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.filterLabel {
+  margin: 5px;
+}
+
+.buttonLabel {
+  margin: 5px;
+}
+
+.genreButtonContainer {
+  position: absolute;
+  display: flex;
+  max-height: 200px;
+  flex-direction: column;
+  align-items: stretch;
+  overflow-y: scroll;
+}
+
+.buttonOn {
+  background-color: green;
+}
+
+.buttonOff {
+  background-color: red;
+}
+
+.messageContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.loaderContainer {
+  align-self: center;
+  background-color: #c1b6b6;
+  border: 4px groove rgba(167, 97, 97, 0.452);
+  border-radius: 5px;
+  max-block-size: 80px;
+}
+
+.listMessage {
+  align-self: center;
+  background-color: #c1b6b6;
+  border: 4px groove rgba(167, 97, 97, 0.452);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.inputFilter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.filterContainer {
+  padding: 5px;
+  border: 2px inset rgba(167, 97, 97, 0.452);
+  background-color: rosybrown;
+  border-radius: 10px;
+}
+
+.orderContainer {
+  padding: 5px;
+  border: 2px inset rgba(167, 97, 97, 0.452);
+  background-color: rosybrown;
+  border-radius: 10px;
+}
+
+.pagination {
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px inset rgba(167, 97, 97, 0.452);
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.element {
+  padding: 5px;
+  border: 2px inset rgba(167, 97, 97, 0.452);
+  background-color: rosybrown;
+  border-radius: 10px;
+}
+
+.elements {
+  padding: 5px;
+  border: 2px inset rgba(167, 97, 97, 0.452);
+  background-color: rosybrown;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.btnPage {
+  align-self: center;
+  margin: 5px;
+  border-radius: 10px;
+  border: 3px outset rgba(167, 97, 97, 0.452);
+  background-color: #c1b6b6;
+}
+
+.btnPage:active {
+  transform: translateY(1px);
+}
+
+.btnPage:hover {
+  border-color: rosybrown;
+}
+
+.paginationElement {
+  padding: 5px;
+  padding-left: 3px;
+}
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fdd;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
