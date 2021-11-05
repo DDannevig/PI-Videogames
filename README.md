@@ -6,6 +6,6 @@
 
 ##  Proyect Overview
 
-- App built with React, Redux, Node, Axios and Sequelize.
+- App built with React, Redux, Node, Axios, Express and Sequelize.
 - JavaScript, HTML and CSS.
 - No external libraries used.
